@@ -1,0 +1,14 @@
+{
+  "name": "The Off White — Bar & Grill",
+  "short_name": "Off White",
+  "description": "Fine Dining · Crafted Cocktails · Mediterranean Soul",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F7F2EB",
+  "theme_color": "#F7F2EB",
+  "icons": [
+    { "src": "/favicon.ico", "sizes": "any", "type": "image/x-icon" }
+  ]
+}

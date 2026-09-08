@@ -1,0 +1,11 @@
+project_id = "the-off-white"
+
+[functions.submit-reservation]
+verify_jwt = true
+
+[functions.submit-enquiry]
+verify_jwt = true
+
+# Auth checked inside the function (INSTAGRAM_CRON_SECRET or service_role Bearer).
+[functions.refresh-instagram-token]
+verify_jwt = false
